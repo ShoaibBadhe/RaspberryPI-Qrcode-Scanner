@@ -5,7 +5,7 @@ cap = cv2.VideoCapture(0)
 font=cv2.FONT_HERSHEY_PLAIN
 
 while(True):
-	_,frame = cap.read()
+	_,sucess = cap.read()
 	
 	decodeobj = decode(frame)
 	for obj in decodeobj:
