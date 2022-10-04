@@ -7,7 +7,7 @@ def scan():
     while i<1:
         _,frame = cap.read()
 	
-        decodeobj = decode(frame)
+        object = decode(frame)
         for obj in decodeobj:
             print(obj.data)
             i+=1
