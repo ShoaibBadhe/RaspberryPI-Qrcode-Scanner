@@ -10,7 +10,7 @@ print(addr)
 def scan():
     cap = cv2.VideoCapture(0)
     i=0
-    global a
+    globl a
     while i<1:
         _,frame = cap.read()
 	
