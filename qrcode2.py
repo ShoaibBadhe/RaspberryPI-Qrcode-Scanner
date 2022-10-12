@@ -5,7 +5,7 @@ def scan():
     cap = cv2.VideoCapture(0)
     i=0
     while i<1:
-        _,frame = cap.read()
+        suc,frame = cap.read()
 	
         object = decode(frame)
         for obj in decodeobj:
