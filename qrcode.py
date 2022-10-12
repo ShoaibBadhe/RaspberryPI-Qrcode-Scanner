@@ -4,7 +4,7 @@ from pyzbar.pyzbar import decode
 cap = cv2.VideoCapture(0)
 font=cv2.FONT_HERSHEY_PLAIN
 
-while(True):
+while(False):
 	_,sucess = cap.read()
 	
 	decodeobj = decode(frame)
